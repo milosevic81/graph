@@ -16,6 +16,7 @@ https://www.graphql-java.com/documentation/v17/
 
 Video tutorial
 Spring Boot GraphQL Tutorial #2 - Creating your first Schema and Query
+https://www.youtube.com/watch?v=rH2kdMPUQpQ&ab_channel=PhilipStarritt
 
 Maven playground
 https://mvnrepository.com/artifact/com.graphql-java-kickstart/playground-spring-boot-starter/5.10.0
