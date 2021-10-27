@@ -1,16 +1,4 @@
+# Master query type
 type Query {
     bankAccount(id: ID): BankAccount
-}
-
-type BankAccount {
-    id: ID!
-    name: String!
-    currency: Currency!
-}
-
-enum Currency {
-    EUR
-    CHF
-    USD
-    RSD
 }

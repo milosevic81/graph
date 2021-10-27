@@ -1,0 +1,7 @@
+graphql.playground:
+  headers:
+    Authorization: Bearer TOKEN
+  tabs:
+    - name: Bank account
+      query: classpath:playground/bank_account.graphql
+      variables: classpath:playground/bank_account_vars.json

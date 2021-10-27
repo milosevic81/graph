@@ -1,0 +1,6 @@
+# Bank client information
+type Client {
+    id: ID!
+    firstName: String!
+    lastName: String!
+}

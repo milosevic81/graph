@@ -1,0 +1,6 @@
+# Your standard bank account type
+type BankAccount {
+    id: ID!
+    currency: Currency!
+    client: Client!
+}

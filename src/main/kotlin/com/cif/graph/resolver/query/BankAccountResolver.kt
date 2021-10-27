@@ -1,4 +1,4 @@
-package com.cif.graph.resolver
+package com.cif.graph.resolver.query
 
 import com.cif.graph.domain.BankAccount
 import com.cif.graph.domain.Currency
@@ -9,6 +9,6 @@ import java.util.*
 @Component
 class BankAccountResolver: GraphQLQueryResolver {
     fun bankAccount(id: UUID): BankAccount {
-        return BankAccount(id, "Phillip", Currency.CHF)
+        return BankAccount(id, Currency.CHF, null)
     }
 }
